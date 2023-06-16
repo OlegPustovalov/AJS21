@@ -1,0 +1,29 @@
+{
+  "name": "defender-game",
+  "version": "1.0.0",
+  "description": "Webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/OlegPustovalov/ajs21"
+  },
+  "keywords": [
+    "game"
+  ],
+  "author": "Oleg",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^9.1.2",
+    "css-loader": "^6.8.1",
+    "html-webpack-plugin": "^5.5.3",
+    "mini-css-extract-plugin": "^2.7.6",
+    "webpack-cli": "^5.1.4"
+  },
+  "dependencies": {
+    "core-js": "^3.31.0"
+  }
+}
